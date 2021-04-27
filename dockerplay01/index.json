@@ -1,10 +1,10 @@
 {
-  "title": "Creating Your First Katacoda Scenario",
-  "description": "Learn how to create your first Katacoda scenario",
+  "title": "Chapter HU Devsecops Eng01 - Docker Sandbox ",
+  "description": "Set up a running and working Wordpress container",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Scenario Structure",
+        "title": "Set up a running and working Wordpress container",
         "text": "step1.md"
       }
     ],
