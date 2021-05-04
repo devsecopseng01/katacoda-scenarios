@@ -1,6 +1,5 @@
 {
   "title": "Chapter HU Devsecops Eng01 - Docker Sandbox ",
-  "type": "challenge@0.6",
   "description": "Set up a running and working Wordpress container",
   "details": {
     "steps": [
