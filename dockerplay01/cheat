@@ -1,9 +1,0 @@
-#!binbash
-
-type_out Updating code to include return
-
-cat  EOF  rootmultiply.js
-function multiply(a, b){
-  return a  b
-}
-EOF
