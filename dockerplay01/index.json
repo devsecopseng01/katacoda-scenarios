@@ -1,24 +1,38 @@
 {
-  "title": "Chapter HU Devsecops Eng01 - Docker Sandbox ",
-  "description": "Set up a running and working Wordpress container",
+  "type": "challenge@0.6",
+  "title": "Challenge Example - Node.js",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
   "details": {
-    "steps": [
-      {
-        "title": "Set up a running and working Wordpress container",
-        "text": "step1.md"
-      }
-    ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "challenge.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "hidesidebar": true,
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "nodejs:12"
   }
 }
