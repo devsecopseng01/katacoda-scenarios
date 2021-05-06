@@ -1,21 +1,17 @@
-echo "Started"
+#!/bin/bash
 
-cat << 'EOF' > /root/multiply.js
-function multiply(a, b){
-  a * b
-}
-EOF
+kc_start_tasks()
+{
+  echo "Debug Code: JavaScript 1"
+  echo 
 
-cat << 'EOF' > /opt/test.js
-var x = multiply(2, 2);
-if(x === 4) {
-  process.exit(0);
-} else {
-  console.log("Error", x);
-  process.exit(1);
-}
-EOF
+  echo "Complete the following tasks to progress:"
+  echo
+
+  kc_task \
+      "Task 1: Fix multiply.js to execute properly" \
+      "Well Done! This is a common issue in JavaScript and something that catches out everyone at some point." \
+      "cat /root/multiply.js /opt/test.js > /opt/.run.js; node /opt/.run.js;"
 
 
-
-echo 'done' > /opt/katacoda-background-finished
+  echo "You successfully fixed the application"
