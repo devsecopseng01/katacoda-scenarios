@@ -15,3 +15,4 @@ kc_start_tasks()
 
 
   echo "You successfully fixed the application"
+}
