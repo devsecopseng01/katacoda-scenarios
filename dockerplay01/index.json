@@ -1,9 +1,9 @@
 {
   "type": "challenge@0.6",
-  "title": "Challenge Example - Node.js",
+  "title": "Docker Challenge",
   "description": "",
-  "difficulty": "Beginner",
-  "time": "60 minutes",
+  "difficulty": "Intermediate",
+  "time": "30 minutes",
   "details": {
     "intro": {
       "text": "intro.md",
