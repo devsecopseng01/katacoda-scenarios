@@ -1,6 +1,6 @@
 {
   "type": "challenge@0.6",
-  "title": "Mukdojmarbmg",
+  "title": "DockerChallenge",
   "description": "",
   "difficulty": "Intermediate",
   "time": "30 minutes",
@@ -19,11 +19,6 @@
           "file": "challenge.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
-        },
-        {
-          "file": "cheat",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
         }
       ]
     }
@@ -33,6 +28,6 @@
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "ubuntu:1804"
   }
 }

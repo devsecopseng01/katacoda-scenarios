@@ -19,6 +19,11 @@
           "file": "challenge.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
+        },
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
         }
       ]
     }
@@ -28,6 +33,6 @@
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "nodejs:12"
   }
 }
