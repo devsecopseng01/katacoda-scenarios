@@ -1,6 +1,6 @@
 {
   "type": "challenge@0.6",
-  "title": "DockerChallenge",
+  "title": "Mukdojmarbmg",
   "description": "",
   "difficulty": "Intermediate",
   "time": "30 minutes",
@@ -17,6 +17,11 @@
       "client": [
         {
           "file": "challenge.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "cheat",
           "target": "/usr/local/bin/",
           "chmod": "+x"
         }
