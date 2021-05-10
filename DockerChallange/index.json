@@ -19,11 +19,6 @@
           "file": "challenge.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
-        },
-        {
-          "file": "cheat",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
         }
       ]
     }
