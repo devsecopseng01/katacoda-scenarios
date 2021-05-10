@@ -1,5 +1,5 @@
-Na figyejjé, - > Render port 80:
+[[HOST_IP]]
+[[HOST_IP]]{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
-
- https://[[HOST_SUBDOMAIN]]
+[[HOST2_IP]]
+[[HOST2_IP]]{{execute}}
