@@ -1,4 +1,11 @@
+Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
 
-## Task
+Render port 8500:
 
-Set up a WordPress container, when finished, click "Continue" and send a screenshot of the running container(s) and HTTP output to : 
+https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
+Render port 80:
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+Display page allowing user to select port:
+
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
