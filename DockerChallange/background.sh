@@ -1,6 +1,4 @@
-echo "Started"
-
-echo "The IP address for this environment is [[HOST_IP]]"
+echo "Started [[HOST_IP]]"
 
 cat << 'EOF' > /opt/test.sh
 var x = multiply(2, 2);
