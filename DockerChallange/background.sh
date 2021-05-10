@@ -1,12 +1,8 @@
 echo "Started"
 
-cat << 'EOF' > /root/multiply.js
-function multiply(a, b){
-  a * b
-}
-EOF
+echo "The IP address for this environment is [[HOST_IP]]"
 
-cat << 'EOF' > /opt/test.js
+cat << 'EOF' > /opt/test.sh
 var x = multiply(2, 2);
 if(x === 4) {
   process.exit(0);
