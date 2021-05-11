@@ -24,7 +24,7 @@
           "file": "script.sh",
           "target": "/usr/local/bin/",
           "chmod": "o+x"
-        },
+        }
 		
 		
       ]
