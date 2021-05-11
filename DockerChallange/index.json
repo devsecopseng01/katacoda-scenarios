@@ -19,7 +19,14 @@
           "file": "challenge.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
-        }
+        },
+		 {
+          "file": "script.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "o+x"
+        },
+		
+		
       ]
     }
   },
