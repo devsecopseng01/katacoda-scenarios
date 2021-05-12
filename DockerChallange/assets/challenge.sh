@@ -3,7 +3,6 @@
 kc_start_tasks()
 {
   echo "Debug Code: JavaScript 1"
-  echo 
 
   echo "Complete the following tasks to progress:"
   echo
