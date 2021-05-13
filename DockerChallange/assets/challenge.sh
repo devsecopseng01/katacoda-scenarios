@@ -4,7 +4,7 @@ kc_start_tasks()
 {
   echo "Debug Code: JavaScript 1"
 
-  echo "This is server [[HOST_IP]] Complete the following tasks to progress:"
+  echo "This is server [[HOST_IP]], CComplete the following tasks to progress:"
   echo
 
   kc_task \
