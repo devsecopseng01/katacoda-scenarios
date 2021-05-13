@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "anyad"
+
 kc_start_tasks()
 {
   echo "Debug Code: JavaScript 1"
