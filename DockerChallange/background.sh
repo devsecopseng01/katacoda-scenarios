@@ -1,6 +1,8 @@
 echo "Started"
 
 
+cp /usr/local/bin/script.sh /root/script.sh
+
 cat << 'EOF' > /opt/test.js
 var x = multiply(2, 2);
 if(x === 4) {
@@ -14,3 +16,5 @@ EOF
 
 
 echo 'done' > /opt/katacoda-background-finished
+
+
