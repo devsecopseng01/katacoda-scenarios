@@ -30,7 +30,7 @@
     }
   },
   "environment": {
-    "hidesidebar": true,
+    "hidesidebar": false,
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
