@@ -1,7 +1,7 @@
 echo "Started"
 
 
-cp /usr/local/bin/script.sh /root/script.sh
+cp /usr/local/bin/hi.sh /root/hi.sh
 
 cat << 'EOF' > /opt/test.js
 var x = multiply(2, 2);
