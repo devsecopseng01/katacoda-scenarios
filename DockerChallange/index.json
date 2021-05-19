@@ -21,7 +21,7 @@
           "chmod": "+x"
         },
 		  {
-          "file": "script.sh",
+          "file": "hi.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
         }
