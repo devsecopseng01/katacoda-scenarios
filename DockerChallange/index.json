@@ -37,7 +37,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "Website output", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
+        {"name": "Web output", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
     "uilayout": "terminal-iframe"
 },
   "backend": {
