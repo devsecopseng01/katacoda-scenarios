@@ -7,8 +7,8 @@ cp /usr/local/bin/node_program.js /root/node_program.js
 
 cat << 'EOF' > /opt/test.js
 const { exec } = require('child_process');
-exec('sh hi.sh', (err, stdout, stderr) => {
-  if (stdout.trimRight() !== 'wordpress is not running') {
+exec('sh /root/hi.sh', (err, stdout, stderr) => {
+  if (stdout.trimRight() !== 'wordpress is running') {
     //some err occurred
     console.error(err);
 	process.exit(1);
