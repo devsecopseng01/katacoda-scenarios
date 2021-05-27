@@ -6,6 +6,10 @@
       {
         "title": "Introduction into Docker and containers",
         "text": "step1.md"
+      },
+	   {
+        "title": "Introduction into Docker and containers",
+        "text": "step2.md"
       }
     ],
     "intro": {
