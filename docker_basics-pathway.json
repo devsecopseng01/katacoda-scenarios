@@ -9,7 +9,7 @@
       },
 	  {
         "course_id": "docker-basics-2",
-        "title": "Docker Basics 2 - Using docker files",
+        "title": "Docker Basics 2 - Images & the .Dockerfile",
         "description": "Learn to create your own image in no time"
       }
 	  ]
