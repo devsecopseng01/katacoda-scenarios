@@ -2,6 +2,9 @@ One of the hottest IT topics in the 2000s were VMWare and virtualization.
 Recently that's been replaced by Docker and contrainer orchestraction. 
 You can think of containers as small virtual machines that contain the dependencies for your application without the devs having to worry where and on what hardware the will the app be deployed.
 
+The very basic concept of docker consits of two things: <b>Images</b> and <b>containers</b>.
+
+
 As a starter, lets check if docker is installed.
 `docker version`{{execute}}
 
