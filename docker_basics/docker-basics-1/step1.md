@@ -24,9 +24,3 @@ not exist locally, docker will attempt to download the image from the `docker re
 <h3>Now what??</h3>
 
 Click on continue to find out!
-
-
-Let's run the same command again, but this time with the parameter `-d'.
-This parameter tells docker to run the container in 'detached' mode, meaning it will run the background.
-
-`docker run -d nginx`{{execute}}

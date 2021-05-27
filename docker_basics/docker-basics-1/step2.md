@@ -1,9 +1,10 @@
-Within each step, a series of Markdown extensions have been created that can provide various details for the users' experience.
+Let's run the same command again, but this time with the parameter `-d'.
+This parameter tells docker to run the container in 'detached' mode, meaning it will run the background.
 
-For example, commands such as `echo "Run in Terminal"`{{execute}}
- can be executed by clicking the command.
+`docker run -d nginx`{{execute}}
 
-This is done by adding `execute` to the markdown code block, for example:
-<pre>`echo "Run in Terminal"`{{execute}}</pre>
+To verify our container has started, run the following command:
 
-More can be found at the scenario [on Markdown extensions](https://katacoda.com/scenario-examples/scenarios/markdown-extensions).
+`docker ps`
+
+This command will list all containers that are actively up and running. PS stands for "process status"
