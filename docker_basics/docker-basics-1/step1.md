@@ -25,7 +25,10 @@ Now that we have verified docker is installed, lets run our first container:
 `run` will attempt to create and start a container using the image specificed (nginx in our case). If the image does
 not exist locally, docker will attempt to download the image from the <b>docker registry</b> as long as it's available. - the default registry is <b>DockerHub</b>.
 
-`nginx` is a very compact webserver application, and since it's available on <b>DockerHub</b>, docker will download it and create a running container based on the `nginx` image. Since we did not specify explictly that it should run in the background, nginx will run in the foreground and await inputs from the console(terminal).
+`nginx` is a very compact webserver application, and since it's available on <b>DockerHub</b>, docker will download it and create a running container based on the `nginx` image. Since we did not specify explictly that it should run in the background, nginx will run in the foreground and await inputs from the console(terminal). Press CTRL+C
+Run the command below, or press `CTRL + C` to exit from this container.
+`top`{{execute interrupt}}
+
 
 
 <h3>Now what??</h3>

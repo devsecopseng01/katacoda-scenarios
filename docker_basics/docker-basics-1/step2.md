@@ -5,6 +5,6 @@ This parameter tells docker to run the container in 'detached' mode, meaning it 
 
 To verify our container has started, run the following command:
 
-`docker ps`
+`docker ps`{{execute}}
 
 This command will list all containers that are actively up and running. PS stands for "process status"
