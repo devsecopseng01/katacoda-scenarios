@@ -5,6 +5,7 @@ You can think of containers as small virtual machines that contain the dependenc
 The very basic concept of docker consits of two things: <b>Images</b> and <b>containers</b>.
 If you come from an OOP dev background, you can think of images as classes and containers as the instances.
 If not, you can think of image as the recipe for Pastel de Nata (pictured below) and the container the acutal dish.
+<br/>
 ![](assets/pastel.jpg)
 
 
