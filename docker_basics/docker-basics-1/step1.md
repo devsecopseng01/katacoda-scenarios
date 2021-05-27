@@ -13,8 +13,20 @@ Now that we have verified docker is installed, lets run our first container:
 `docker run nginx`{{execute}}
 
 
-<h2>What did that do?</h2>
+<h3>What did that do?</h3>
 
 `run` will attempt to create and start a container using the image specificed (nginx in our case). If the image does
 not exist locally, docker will attempt to download the image from the `docker registry` as long as it's available. - the default registry is `DockerHub`.
-`nginx` is a very compact webserver application, and since it's available on `DockerHub`, docker will download it and create a running container based on the `nginx` image.
+
+`nginx` is a very compact webserver application, and since it's available on `DockerHub`, docker will download it and create a running container based on the `nginx` image. Since we did not specify explictly that it should run in the background, nginx will run in the foreground and await inputs from the console(terminal).
+
+
+<h3>Now what??</h3>
+
+Click on continue to find out!
+
+
+Let's run the same command again, but this time with the parameter `-d'.
+This parameter tells docker to run the container in 'detached' mode, meaning it will run the background.
+
+`docker run -d nginx`{{execute}}
