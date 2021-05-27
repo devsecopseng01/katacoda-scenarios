@@ -3,12 +3,12 @@
     "description": "Introduction into Docker and containers",
     "courses": [
       {
-        "course_id": "docker-basics-one",
+        "course_id": "docker-basics-1",
         "title": "Docker Basics 1 - Your first container",
         "description": "Learn how to create and use your first container"
       },
 	  {
-        "course_id": "docker-basics-one",
+        "course_id": "docker-basics-1",
         "title": "Docker Basics 2 - Your first container",
         "description": "Learn how to create and use your first container"
       }
