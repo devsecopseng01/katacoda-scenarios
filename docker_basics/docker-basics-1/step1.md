@@ -13,7 +13,7 @@ Now that we have verified docker is installed, lets run our first container:
 `docker run nginx`{{execute}}
 
 
-##What does that do?
+<h2>What did that do?</h2>
 
 `run` will attempt to create and start a container using the image specificed (nginx in our case). If the image does
 not exist locally, docker will attempt to download the image from the `docker registry` as long as it's available. - the default registry is `DockerHub`.
