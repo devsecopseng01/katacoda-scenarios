@@ -4,7 +4,7 @@
     "icon": "fa-katacoda",
     "courses": [
       {
-        "course_id": "Docker Basics 1",
+        "course_id": "docker-basics-1",
         "title": "Docker Basics 1 - Your first container",
         "description": "Learn how to create and use your first container"
       }]
