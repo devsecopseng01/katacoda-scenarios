@@ -1,0 +1,11 @@
+{
+    "title": "Docker Basics",
+    "description": "Introduction into Docker and containers",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "Docker Basics 1",
+        "title": "Docker Basics 1 - Your first container",
+        "description": "Learn how to create and use your first container"
+      }]
+}
