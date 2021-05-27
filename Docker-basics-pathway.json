@@ -6,5 +6,11 @@
         "course_id": "docker-basics-one",
         "title": "Docker Basics 1 - Your first container",
         "description": "Learn how to create and use your first container"
-      }]
+      },
+	  {
+        "course_id": "docker-basics-one",
+        "title": "Docker Basics 2 - Your first container",
+        "description": "Learn how to create and use your first container"
+      }
+	  ]
 }
