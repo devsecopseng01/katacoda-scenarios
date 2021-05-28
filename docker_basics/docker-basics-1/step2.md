@@ -33,4 +33,4 @@ example:
 <b> curl 172.0.0.1:80 </b>
 
 If you see the nginx welcome page it means the container has successfully started up and is running.
-But how do we access this in a browser? Continue to find out.
+But how do we access this in a proper browser? Continue to find out.
