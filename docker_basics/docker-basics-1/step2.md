@@ -11,5 +11,5 @@ To verify our container has started, run the following command:
 This command will list all containers that are actively up and running. PS stands for "process status"
 You should see our container called coffee on the list, meaning the container is up and running.
 
-If we run the command `docker ps -a`{{execute}}, we will also notice a container there using nginx in a stopped state.
-This is our container we executed before in foreground mode.
+Running the command `docker ps -a`{{execute}}, will also show a container using nginx in a stopped state.
+This is our container we executed before in foreground mode (without -d).
