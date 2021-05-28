@@ -14,7 +14,7 @@ You should see our container called coffee on the list, meaning the container is
 Running the command `docker ps -a`{{execute}}, will also show a container using nginx in a stopped state.
 This is our container we executed before in foreground mode (without -d).
 
-<h3>Working with images and containers</h3>
+<h3>Working with containers</h3>
 
 You probably noticed the 2nd time we created a container using the same image, the creation time was much shorter.
 This is because docker did not have to download the image again from the public registry, instead it used the previously downloaded image and used it to create the container.
@@ -28,7 +28,7 @@ Run the following command to determine the internal IP address of the container:
 
 Now that we have the IP of the container, lets use `curl' to communicate with it on port 80.
 
-example: <b> curl 172.0.0.1:80 </b>
+`curl [[HOST_IP]]:80`{{execute}}
 
 
 
