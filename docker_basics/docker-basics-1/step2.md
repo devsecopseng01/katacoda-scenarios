@@ -26,9 +26,9 @@ Run the following command to determine the internal IP address of the container:
 
 `inspect` is a command used to get various information about a container, but for now we only needed the IP address.
 
-Now that we have the IP of the container, lets use `curl' to communicate with it on port 80.
-
-`curl [[HOST_IP]]:80`{{execute}}
+Now that we have the IP of the container, lets use `curl` to communicate with it on port 80.
+For simplicity's sake you can think of curl as a very simple command line web browser.
+example: <b> curl 172.0.0.1:80 </b>
 
 
 

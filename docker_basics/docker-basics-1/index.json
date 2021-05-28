@@ -10,7 +10,12 @@
 	   {
         "title": "Introduction into Docker and containers",
         "text": "step2.md"
+      },
+	   {
+        "title": "Accessing the container from the internet",
+        "text": "step2.md"
       }
+	  
     ],
     "intro": {
       "text": "intro.md"
