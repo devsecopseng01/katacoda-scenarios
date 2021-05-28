@@ -26,11 +26,11 @@ Run the following command to determine the internal IP address of the container:
 
 `inspect` is a command used to get various information about a container, but for now we only needed the IP address.
 
-Now that we have the IP of the container, lets use `curl` to communicate with it on port 80.
+Now that we have the IP of the container, let's use `curl` to communicate with it on port 80.
 For simplicity's sake you can think of curl as a very simple command line web browser.
-example: <b> curl 172.0.0.1:80 </b>
 
+example: 
+<b> curl 172.0.0.1:80 </b>
 
-
-
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+If you see the nginx welcome page it means the container has successfully started up and is running.
+But how do we access this in a browser? Continue to find out.
