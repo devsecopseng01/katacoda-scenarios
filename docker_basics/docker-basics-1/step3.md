@@ -5,7 +5,9 @@ So lets start up a new container, called coffee2, using the very same nginx imag
 
 `docker run --name "coffee2" -d -p 8080:80 nginx`{{execute}}
 
+Clicking on the URL below should bring you the nginx welcome page meaning we have successfully installed nginx and exposed to the internet on port 8080.
 
+Alternatively you can run the command curl [[HOST_IP]]:8080.
 
 
 
