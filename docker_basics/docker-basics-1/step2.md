@@ -13,3 +13,11 @@ You should see our container called coffee on the list, meaning the container is
 
 Running the command `docker ps -a`{{execute}}, will also show a container using nginx in a stopped state.
 This is our container we executed before in foreground mode (without -d).
+
+<h3>Working with images and containers<h3>
+
+You probably noticed the 2nd time we created a container using the same image, the creation time was much shorter.
+This is because docker did not have to download the image again from the public registry, instead it used the previously downloaded image and used it to create the container.
+
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/

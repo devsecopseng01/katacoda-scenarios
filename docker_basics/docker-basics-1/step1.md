@@ -8,8 +8,9 @@ If not, you can think of image as the recipe for Pastel de Nata (pictured below)
 <br/>
 ![](assets/pastel.jpg)
 
+Images consist of layers(for example :file system & meta data). It's a package that has instructions to create a container that runs in Docker. Thats for the concept, lets see what docker actually can do.
 
-As a starter, lets check if docker is installed.
+As a starter, check if docker is installed:
 `docker version`{{execute}}
 
 The command above should confirm docker is installed as well as tell us which version we are running.
