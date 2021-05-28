@@ -11,4 +11,4 @@ Clicking on the URL below should bring you the nginx welcome page meaning we hav
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 
-Alternatively you can run the command curl `http://[[HOST_IP]]:8080`{{execute}}
+Alternatively you can run the command `curl http://[[HOST_IP]]:8080`{{execute}}
