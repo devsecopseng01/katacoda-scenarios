@@ -7,9 +7,8 @@ So lets start up a new container, called coffee2, using the very same nginx imag
 
 Clicking on the URL below should bring you the nginx welcome page meaning we have successfully installed nginx and exposed to the internet on port 8080.
 
-Alternatively you can run the command curl http://[[HOST_IP]]:8080
-
-
-
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+Alternatively you can run the command curl `http://[[HOST_IP]]:8080`{{execute}}
