@@ -1,6 +1,9 @@
 {
     "title": "Docker Basics",
-    "description": "Introduction into Docker and containers",
+    "description": "This course is intended for those whom at least 2 of the following statements are true:
+- Have heard about docker
+- Know what VM's are
+- Interested in virtualization",
     "courses": [
       {
         "course_id": "docker-basics-1",
