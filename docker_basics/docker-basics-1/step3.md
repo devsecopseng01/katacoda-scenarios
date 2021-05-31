@@ -12,3 +12,21 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 Alternatively you can run the command `curl http://[[HOST_IP]]:8080`{{execute}}
+
+
+<h3>Bonus objective:</h3> delete our container.
+
+In order to delete an actively running container, you must either first `-stop` it, or `-f`orcibly remove it.
+
+So: docker container stop coffee2 then docker container rm coffee2 
+Or go with : docker container rm -f coffee2
+
+Running `docker ps`{{execute}} should now indicate that our container is gone.
+
+<h3>Summary</h3>
+Congrartulations, if you made it this far, you should now have a basic what images and containers are, how to run a container with specific image, expose to the internet, and delete a container!
+
+
+
+
+
