@@ -2,6 +2,7 @@ For now our container is not exposed to the outer world, lets see what happens w
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
+You will see the service is not responding on port 8080, you can try and change it to 80 as well, the result will be the same.
 
 
 In order to access our container outside our sandbox here (the <i>outer world</i>), 
@@ -31,6 +32,7 @@ Running `docker ps`{{execute}} should now indicate that our container is gone.
 
 <h3>Summary</h3>
 Congrartulations, if you made it this far, you should now have a basic what images and containers are, how to run a container with specific image, expose to the internet, and delete a container!
+Continue to Docker Basics 2 to learn how to work with images as well as create your own image.
 
 
 
