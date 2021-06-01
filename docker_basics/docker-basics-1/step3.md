@@ -1,3 +1,9 @@
+For now our container is not exposed to the outer world, lets see what happens when we try to access it from a browser by clicking on the link below:
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+
 In order to access our container outside our sandbox here (the <i>outer world</i>), 
 we need to map a port on our host to port 80 on the container.
 We can do this by adding the `-p` parameter to the docker run command.
