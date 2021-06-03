@@ -6,11 +6,7 @@
       {
         "title": "Managing images",
         "text": "step1.md"
-      },
-	  {
-        "title": "Managing images",
-        "text": "step2.md"
-		}
+      }
     ],
     "intro": {
       "text": "intro.md"
