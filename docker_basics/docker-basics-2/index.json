@@ -1,10 +1,10 @@
 {
   "title": "Chapter HU Devsecops Eng01 - Docker basics 2",
-  "description": "Managing and creating images",
+  "description": "Managing images",
   "details": {
     "steps": [
       {
-        "title": "Managing images",
+        "title": "Introduction into Docker and containers",
         "text": "step1.md"
       }
     ],
