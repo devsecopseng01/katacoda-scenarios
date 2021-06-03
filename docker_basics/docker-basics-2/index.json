@@ -9,10 +9,8 @@
       },
 	  {
         "title": "Managing images",
-        "text": "step1.md"
-      
-	  
-	  
+        "text": "step2.md"
+		}
     ],
     "intro": {
       "text": "intro.md"
