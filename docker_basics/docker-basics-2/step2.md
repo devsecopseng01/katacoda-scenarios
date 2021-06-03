@@ -30,6 +30,8 @@ Probably there arent any such images on the system just yet, so the the command 
 
 This will display metadata info. GREP can come in quite handy here if you want to extract specific information, for example creation date. 
 `docker inspect nginx:1.15 | grep "Created"`{{execute}} 
+
 Or alternatively you can use
+
 `docker image inspect nginx:1.15 --format "{{.Created}}"`{{execute}}
  
