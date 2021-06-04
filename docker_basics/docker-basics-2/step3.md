@@ -23,6 +23,8 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 The page you saw is what we are going to replace. Let's create a seperate directory by running
 `mkdir newnginx`{{execute}} 
  
+ sdasdasd
+ asdasd
  
  
  
