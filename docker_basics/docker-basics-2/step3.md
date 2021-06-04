@@ -52,7 +52,7 @@ The COPY directive will copy our index.html file to the location where nginx is 
 
 Save the Dockerfile and exit the editor.
 
-<h3>Let's build and run our actual image</h3>
+<h3>Click on continue to build and run our actual image</h3>
  
  
 
