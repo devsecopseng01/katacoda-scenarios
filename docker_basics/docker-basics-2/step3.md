@@ -35,15 +35,23 @@ Create our own index.html file using any text editor, for example "vi".
 
 What you put here is up to you, but a simple "Hello World!" will also do the trick.
 Save your file and exit vi.
-
-
 Now lets create our dockerfile:
 
 `vi Dockerfile`{{execute}}
 
 Note: the Dockerfile must always be called Dockerfile, with a capital "D", this is a constraint.
-
 Let's put the following instructions in the file:
- 
+
+<pre>
+FROM nginx:latest
+COPY ./index.html /usr/share/nginx/html/index.html
+</pre>
+
+The FROM directive will define which image we will be basing our image on (if at all) or if we are going to create a completley new image from the scratch.
+The COPY directive will copy our index.html file to the location where nginx is expecting it to be.
+
+Save the Dockerfile and exit the editor.
+
+<h3>Let's build and run our actual image</h3>
  
  
