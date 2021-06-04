@@ -1,5 +1,15 @@
-For those who prefer an IDE based extension, Katacoda has extended Visual Studio Code for scenario management.
+`docker build new-nginx-image .`{{execute}}
 
-This can be installed from the [Katacoda page on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items/Katacoda.vscode/).
+If all went well our image now should show up when running:
 
-After installation, you can create new scenarios, add steps and have quick access to the Katacoda markdown features via snippets.
+`docker images`{{execute}}
+
+Let's use our newly built image to run a container, and expose it to port 8081 (since 8080) is already in use.
+
+`docker run -d -p 8080:80 nginx`{{execute}}
+
+And lets check it out on port 8081:
+
+https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/
+
+And voila, you have created your docker image and now it's up and running.

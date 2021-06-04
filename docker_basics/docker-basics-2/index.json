@@ -15,8 +15,11 @@
 	  {
         "title": "The Dockerfile/image creation",
         "text": "step3.md"
+      },
+	   {
+        "title": "Build and run our image using the Dockerfile",
+        "text": "step4.md"
       }
-	  
 	  
 	  
 	  
