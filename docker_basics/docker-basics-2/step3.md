@@ -6,23 +6,21 @@ These instructions are often referred to as directives.
  
  
  
- <h3>Lets create our first docker image!</h3>
+Lets create our first docker image!
 Our goal will be to replace the default nginx welcome page with our own webpage.
  
 First of all let's just check it out again how the default nginx welcome page looks like.
- Create the container and expose it to port 8080 to begin.
+Create the container and expose it to port 8080 to begin.
  
- `docker run -d -p 8080:80 nginx`{{execute}}
+`docker run -d -p 8080:80 nginx`{{execute}}
 
 
 Now click on the link below to see how the default page looks like:
- <br/>
- 
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
  
- <br/>
-  
+ 
+<h3></h3>  
 The page you saw is what we are going to replace. 
 Let's create a seperate directory by running `mkdir newnginx`{{execute}} and let's switch to that directory with `cd newnginx`{{execute}}
 Create our own index.html file using any text editor, for example "vi".
