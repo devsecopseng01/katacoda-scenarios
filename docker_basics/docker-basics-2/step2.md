@@ -66,6 +66,8 @@ Or alternatively you can use
  `docker image prune`{{execute}}
   
   
+  Theres a lot more to this, but for now you should have a basic idea of how to pull, list and delete images. Click on continue to find out how to create images!
+  
  
  
  

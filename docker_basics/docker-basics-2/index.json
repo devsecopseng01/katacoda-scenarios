@@ -11,7 +11,13 @@
 	  {
         "title": "Managing images",
         "text": "step2.md"
+      },
+	  {
+        "title": "The Dockerfile/image creation",
+        "text": "step3.md"
       }
+	  
+	  
 	  
 	  
     ],
