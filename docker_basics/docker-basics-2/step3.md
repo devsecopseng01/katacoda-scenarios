@@ -11,7 +11,7 @@ There are different ways of creating a docker image. In this course we will demo
  First of all let's just check it out again how the default nginx welcome page looks like.
  Create the container and expose it to port 8080 to begin.
  
- `docker run --name -d -p 8080:80 nginx`{{execute}}
+ `docker run -d -p 8080:80 nginx`{{execute}}
  
  Now click on the link below to see how the default page looks like:
  
