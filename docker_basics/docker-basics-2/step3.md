@@ -24,7 +24,8 @@ The page you saw is what we are going to replace. Let's create a seperate direct
 
 `mkdir newnginx`{{execute}} 
  
-and let's switch to that directory: 
+and let's switch to that directory:
+ 
 `cd newnginx`{{execute}}
 
 Create our own index.html file using any text editor, for example "vi".
