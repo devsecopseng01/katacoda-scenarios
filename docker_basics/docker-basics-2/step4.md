@@ -1,4 +1,6 @@
-`docker build new-nginx-image .`{{execute}}
+`docker build -t new-nginx-image .`{{execute}}
+
+`build` expects the parameter `-t` which is the name of the image (tag).
 
 If all went well our image now should show up when running:
 
