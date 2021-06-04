@@ -22,7 +22,9 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
  
 <h3></h3>  
 The page you saw is what we are going to replace. 
-Let's create a seperate directory by running `mkdir newnginx`{{execute}} and let's switch to that directory with `cd newnginx`{{execute}}
+Let's create a seperate directory by running `mkdir newnginx`{{execute}} 
+and let's switch to that directory with 
+`cd newnginx`{{execute}}
 Create our own index.html file using any text editor, for example "vi".
 
 `vi index.html`{{execute}}
