@@ -3,7 +3,7 @@ There are different ways of creating a docker image. In this course we will demo
 
  A Dockerfile is text file that contains all the commands/instructions that will be excuted when the docker image is built.
  The commands are more or less executed in the manner of a batch file, from top to bottom, in the order in which they are written.
- These instructions are often referred to as "directives".
+ These instructions are often referred to as directives.
  
  
  
