@@ -34,4 +34,25 @@ This will display metadata info. GREP can come in quite handy here if you want t
 Or alternatively you can use
 
 `docker image inspect nginx:1.15 --format "{{.Created}}"`{{execute}}
+
+
+ <b>To delete an image </b>
+ 
+ 
+ `docker image rm nginx:1.15`{{execute}}
+ 
+ Now lets run a container based on nginx 1.15. Since we removed the image previously, docker will download it again.
+ 
+ `docker run -d nginx:1.15`{{execute}}
+ 
+ Try to delete the image again:
+ 
+ `docker image rm nginx:1.15`{{execute}}
+ 
+ What happened? Since theres a container using the image, the deletion failed. We can force remove the image:
+ 
+ `docker image rm --force nginx:1.15`{{execute}}
+ 
+ 
+ 
  
