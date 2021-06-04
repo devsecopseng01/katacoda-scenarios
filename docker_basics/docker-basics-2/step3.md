@@ -47,7 +47,7 @@ The COPY directive will copy our index.html file to the location where nginx is 
 
 Save the Dockerfile and exit the editor.
 
-Now let's build our actual image:
+<h3>Let's build and run our actual image<h3>
 
 `docker build new-nginx-image .`{{execute}}
 
