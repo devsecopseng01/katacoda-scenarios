@@ -59,9 +59,14 @@ Or alternatively you can use
  
  To completley get rid of this image, we have to first stop and delete or force delete the container itself:
  
- docker rm tea -f
+ `docker rm tea -f`{{execute}}
  
- Now that the container is gone
+ Now that the container is gone we can run `docker image prune`. What this does is it removes all images that arent associated with anything (any tags or containers, etc). 
+ 
+ `docker image prune`{{execute}}
+  
+  
+ 
  
  
  
