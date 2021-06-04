@@ -8,7 +8,7 @@ If all went well our image now should show up when running:
 
 Let's use our newly built image to run a container, and expose it to port 8081 (since 8080) is already in use.
 
-`docker run -d -p 8081:80 nginx`{{execute}}
+`docker run -d -p 8081:80 new-nginx-image`{{execute}}
 
 And lets check it out on port 8081:
 
