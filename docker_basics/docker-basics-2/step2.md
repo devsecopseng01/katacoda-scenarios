@@ -41,9 +41,9 @@ Or alternatively you can use
  
  `docker image rm nginx:1.15`{{execute}}
  
- Now lets run a container based on nginx 1.15. Since we removed the image previously, docker will download it again.
+ Now lets run a container called "tea" based on nginx 1.15. Since we removed the image previously, docker will download it again.
  
- `docker run -d nginx:1.15`{{execute}}
+ `docker run -d --name "tea" nginx:1.15`{{execute}}
  
  Try to delete the image again:
  
@@ -51,7 +51,25 @@ Or alternatively you can use
  
  What happened? Since theres a container using the image, the deletion failed. We can force remove the image:
  
- `docker image rm --force nginx:1.15`{{execute}}
+ `docker image rm -f nginx:1.15`{{execute}}
+ 
+ This will actually not delete the image it will simply untag it. Our nginx image will be now what's called a "dangling" image, meaning its not associated with a tag or repository.
+ 
+ If you run `docker ps` and `docker images` you will see that the nginx container is still using the image ID that corresponds to an image on the `docker images` list that has a `tag` and `respository` "none". This is our dangling image, still being used. 
+ 
+ To completley get rid of this image, we have to first stop and delete or force delete the container itself:
+ 
+ docker rm tea -f
+ 
+ Now that the container is gone
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
