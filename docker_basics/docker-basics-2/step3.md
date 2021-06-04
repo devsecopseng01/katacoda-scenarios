@@ -21,11 +21,28 @@ https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
  
  
 The page you saw is what we are going to replace. Let's create a seperate directory by running
+
 `mkdir newnginx`{{execute}} 
  
- sdasdasd
- asdasd
- 
+and let's switch to that directory: 
+`cd newnginx`{{execute}}
+
+Create our own index.html file using any text editor, for example "vi".
+
+`vi index.html`{{execute}}
+
+
+What you put here is up to you, but a simple "Hello World!" will also do the trick.
+Save your file and exit vi.
+
+
+Now lets create our dockerfile:
+
+`vi Dockerfile`{{execute}}
+
+Note: the Dockerfile must always be called Dockerfile, with a capital "D", this is a constraint.
+
+Let's put the following instructions in the file:
  
  
  
