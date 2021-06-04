@@ -16,9 +16,11 @@ There are different ways of creating a docker image. In this course we will demo
  `docker run -d -p 8080:80 nginx`{{execute}}
  
  Now click on the link below to see how the default page looks like:
+ <br/>
  
  https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
  
+ <br/>
   
 The page you saw is what we are going to replace. 
 Let's create a seperate directory by running `mkdir newnginx`{{execute}} and let's switch to that directory with `cd newnginx`{{execute}}
