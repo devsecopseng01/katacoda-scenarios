@@ -27,7 +27,7 @@ mariadb:latest = the latest MariaDB image to be downloaded/used
 execute `docker ps` to see if the MariaDB container is indeed up and running.
 Once this is done, lets fire up our WordPress container:
 
-`docker run -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=<password> --name wordpress --link wordpressdb:mariadb -p 80:80 -v "$PWD/html":/var/www/html -d wordpress`{{execute}}
+`docker run -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=<password> --name wordpress --link wordpressdb:mysql -p 80:80 -v "$PWD/html":/var/www/html -d wordpress`{{execute}}
 Explanation:
 Wordpress specific environment variables:
 WORDPRESS_DB_USER = this is the root user for the db, might not be the best idea from a security P.O.W. but for the purpose of this exercise, it will do.
