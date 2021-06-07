@@ -1,4 +1,1 @@
-In this lession we will learn how to manage images and create images.
-
-
-
+We will demonstrate a more real life-like scenario using WordPress and MariaDB. So you get to see docker is more than just nginx.
