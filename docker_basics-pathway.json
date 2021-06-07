@@ -16,6 +16,11 @@
         "course_id": "docker-basics-3",
         "title": "Docker Basics 3 - Real life use case",
         "description": "Create a Wordpress container with the necessary dependencies."
+      },
+	  {
+        "course_id": "Docker Challange",
+        "title": "Test your knowledge.",
+        "description": ""
       }
 	  ]
 }
