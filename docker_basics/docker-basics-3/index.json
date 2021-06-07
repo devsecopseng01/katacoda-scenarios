@@ -5,9 +5,13 @@
   "details": {
     "steps": [
       {
-        "title": "Set up WordPress and MariaDB",
+        "title": "Set up MariaDB",
         "text": "step1.md"
-      } 
+      }, 
+	  {
+        "title": "Set up WordPress",
+        "text": "step2.md"
+      }
     ],
     "intro": {
       "text": "intro.md"

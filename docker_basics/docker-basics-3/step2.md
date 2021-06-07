@@ -1,83 +1,21 @@
-Let's cover some of the basic commands you would often use when working with images.
 
-The official documentation can be found here:  https://docs.docker.com/engine/reference/commandline/images/ and https://docs.docker.com/engine/reference/commandline/image/
+`docker run -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=<password> --name wordpress --link wordpressdb:mysql -p 80:80 -v "$PWD/html":/var/www/html -d wordpress`{{execute}}
+Explanation:
+Wordpress specific environment variables:
+`WORDPRESS_DB_USER` = this is the root user for the db, might not be the best idea from a security P.O.W. but for the purpose of this exercise, it will do.
 
-<b>To get a list of images already present on the system: </b>
+`WORDPRESS_DB_PASSWORD` = this is the password for the root user we specified during the MariaDB installation.
 
+Docker specific variables:
+`--name`: name of the container
+`--link`: creates an alias 'mysql' for the wordpress db container. Note: The --link flag is a legacy feature of Docker. More on networking in a later lesson.
+`-p`: Expose the internal port to the host's port of 80.
+`-v`: create the volume for wordpress as well.
+`-d`: detached mode
+`wordpress`: name of the image.
 
-`docker images`{{execute}}
-OR
-`docker image ls`{{execute}}
+If both commands run successfully, you should be able to access your wordpress website on the URL below.
 
-A number of images might already come pre-installed on the system, don't be surprised.
-You can also filter the results. For example:
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
-`docker image --filter "before=nginx:1.15"`{{execute}}
-
-
-this will list the images created before nginx version (tag) 1.15. Note: This is the actual image creation date, not the date when you downloaded the image.
-
-
-`docker image ls -a`{{execute}}
-
-This lists all the images on the system including those we call "intermediate images", these are images that were not directly downloaded to the system, rather, they came built in into another image. We will see more of those later. 
-Probably there arent any such images on the system just yet, so the the command above will most likely return the same images as the original `docker image ls`.
-
-
- <b>To get image information </b>
- 
-`docker inspect nginx:1.15`{{execute}}
-
-This will display metadata info. GREP can come in quite handy here if you want to extract specific information, for example creation date. 
-`docker inspect nginx:1.15 | grep "Created"`{{execute}} 
-
-Or alternatively you can use
-
-`docker image inspect nginx:1.15 --format "{{.Created}}"`{{execute}}
-
-
- <b>To delete an image </b>
- 
- 
- `docker image rm nginx:1.15`{{execute}}
- 
- Now lets run a container called "tea" based on nginx 1.15. Since we removed the image previously, docker will download it again.
- 
- `docker run -d --name "tea" nginx:1.15`{{execute}}
- 
- Try to delete the image again:
- 
- `docker image rm nginx:1.15`{{execute}}
- 
- What happened? Since theres a container using the image, the deletion failed. We can force remove the image:
- 
- `docker image rm -f nginx:1.15`{{execute}}
- 
- This will actually not delete the image it will simply untag it. Our nginx image will be now what's called a "dangling" image, meaning its not associated with a tag or repository.
- 
- If you run `docker ps` and `docker images` you will see that the nginx container is still using the image ID that corresponds to an image on the `docker images` list that has a `tag` and `respository` "none". This is our dangling image, still being used. 
- 
- To completley get rid of this image, we have to first stop and delete or force delete the container itself:
- 
- `docker rm tea -f`{{execute}}
- 
- Now that the container is gone we can run `docker image prune`. What this does is it removes all images that arent associated with anything (any tags or containers, etc). 
- 
- `docker image prune`{{execute}}
-  
-  
-  Theres a lot more to this, but for now you should have a basic idea of how to pull, list and delete images. Click on continue to find out how to create images!
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+Set it up and you're good to go!
