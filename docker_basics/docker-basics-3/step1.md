@@ -35,11 +35,14 @@ WORDPRESS_DB_PASSWORD = this is the password for the root user we specified duri
 
 docker specific variables:
 name: name of the container
+link: creates an alias 'mysql' for the wordpress db container. Note: The --link flag is a legacy feature of Docker. More on networking in a later lesson.
+-p: Expose the internal port to the host's port of 80.
+-v: create the volume for wordpress as well.
+-d: detached mode
+wordpress: name of the image.
 
-
-
-
-
+If both commands run successfully, you should be able to access your wordpress website on the URL below.
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
+Set it up and you're good to go!
