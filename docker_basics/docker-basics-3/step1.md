@@ -18,7 +18,7 @@ A container can take up environment variables, in MariaDB's case, amongst others
 
 Docker specific input:
 
---name = This should be familiar from before, this will be the name of the container.
+-name = This should be familiar from before, this will be the name of the container.
 -d = Also nothing new, run it in detached mode
 -v = We will cover these more in depth later. For now it's enough if you know this is a named volume to map two directories. One on the OS file system ($PWD/database) to the containers file system `/var/lib/mysql` to ensure data persistence. When you stop and start the container again the data will be retained. More to come on volumes in a later lesson.
 mariadb:latest = the latest MariaDB image to be downloaded/used
@@ -34,7 +34,7 @@ WORDPRESS_DB_USER = this is the root user for the db, might not be the best idea
 WORDPRESS_DB_PASSWORD = this is the password for the root user we specified during the MariaDB installation.
 
 docker specific variables:
---name: name of the container
+name: name of the container
 
 
 
