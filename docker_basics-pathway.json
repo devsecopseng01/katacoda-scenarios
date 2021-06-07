@@ -9,8 +9,13 @@
       },
 	  {
         "course_id": "docker-basics-2",
-        "title": "Docker Basics 2 - Images & the .Dockerfile",
+        "title": "Docker Basics 2 - Images & the Dockerfile",
         "description": "Learn to manage images and create your own image in no time"
+      },
+	  {
+        "course_id": "docker-basics-3",
+        "title": "Docker Basics 3 - Real life use case",
+        "description": "Create a Wordpress container with the necessary dependencies."
       }
 	  ]
 }
