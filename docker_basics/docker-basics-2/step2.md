@@ -12,7 +12,7 @@ OR
 A number of images might already come pre-installed on the system, don't be surprised.
 You can also filter the results. For example:
 
-`docker image --filter "before=nginx:1.15"`{{execute}}
+`docker images --filter "before=nginx:1.15"`{{execute}}
 
 
 this will list the images created before nginx version (tag) 1.15. Note: This is the actual image creation date, not the date when you downloaded the image.
