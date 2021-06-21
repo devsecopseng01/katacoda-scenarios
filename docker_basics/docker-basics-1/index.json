@@ -5,7 +5,7 @@
   "details": {
     "steps": [
       {
-        "title": "Introduction into Docker and containers",
+        "title": "Introduction into Docker and containers - foreword",
         "text": "step1.md"
       },
 	   {
